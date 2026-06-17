@@ -2,71 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0; url=./index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CloudCore</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
-    body { background-color: #0f172a; color: #e2e8f0; scroll-behavior: smooth; }
-    header { padding: 2rem; text-align: center; background: linear-gradient(to right, #1e3a8a, #2563eb); }
-    header img { width: 80px; height: auto; border-radius: 12px; margin-bottom: 1rem; }
-    header h1 { font-size: 2.5rem; font-weight: 700; }
-    header p { font-size: 1.2rem; color: #cbd5e1; }
-
-    section { padding: 4rem 2rem; max-width: 960px; margin: auto; }
-    h2 { font-size: 2rem; margin-bottom: 1rem; color: #60a5fa; }
-    p { line-height: 1.6; margin-bottom: 1rem; }
-
-    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; }
-    .feature-card { background: #1e293b; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); transition: transform 0.3s; }
-    .feature-card:hover { transform: translateY(-5px); }
-
-    footer { text-align: center; padding: 2rem; color: #94a3b8; font-size: 0.9rem; }
-    a { color: #3b82f6; text-decoration: none; }
-  </style>
+  <title>Calculator App</title>
 </head>
 <body>
-  <header>
-    <img src="logo.jpg" alt="CloudCore Logo" />
-    <h1>CloudCore</h1>
-    <p>Elevate with the Cloud ☁️ | Smart, Fast & Secure Storage Solutions</p>
-  </header>
-
-  <section>
-    <h2>About Us</h2>
-    <p>CloudCore is your modern cloud companion. We help individuals, startups, and businesses manage their data securely and efficiently. No more worries about space, speed, or security — CloudCore handles it all.</p>
-  </section>
-
-  <section>
-    <h2>What We Offer</h2>
-    <div class="features">
-      <div class="feature-card">
-        <h3>⚡ Super Fast Access</h3>
-        <p>Enjoy lightning-speed uploads and downloads with our optimized cloud infrastructure.</p>
-      </div>
-      <div class="feature-card">
-        <h3>🔒 Secure & Private</h3>
-        <p>Military-grade encryption keeps your data locked and loaded — only you hold the key.</p>
-      </div>
-      <div class="feature-card">
-        <h3>📈 Scale Anytime</h3>
-        <p>From 1GB to 100TB — CloudCore grows with you without the extra headache.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Why Choose CloudCore?</h2>
-    <p>Because your data deserves the best — and the future belongs to the cloud. With our user-friendly dashboard, 24/7 support, and unbeatable pricing, CloudCore is your launchpad to the digital future.</p>
-  </section>
-
-  <section>
-    <h2>Contact Us</h2>
-    <p>Have questions? Want a demo? Reach out at <a href="mailto:joydipd914@gmail.com">joydipd914@gmail.com</a> — we’d love to hear from you!</p>
-  </section>
-
-  <footer>
-    &copy; 2025 CloudCore. Designed with ❤️ by Joydip.
-  </footer>
+  <p>Open the calculator app from <a href="./index.html">index.html</a>.</p>
 </body>
 </html>

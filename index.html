@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="A smooth, installable calculator app with reliable C/C++ style arithmetic logic." />
+  <title>Calculator App</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="calculator" aria-label="Installable Calculator">
+      <header class="title">
+        <span class="app-badge">PWA Ready</span>
+        <h1>Calculator</h1>
+        <p>Normal calculator structure with C/C++ style arithmetic logic.</p>
+      </header>
+
+      <section class="screen" aria-label="Calculator display area">
+        <div id="history" class="history" aria-live="polite"></div>
+        <output id="display" class="display" aria-label="Current calculator value">0</output>
+      </section>
+
+      <section class="keys" aria-label="Calculator keys">
+        <button class="danger" type="button" data-action="clear">AC</button>
+        <button class="utility" type="button" data-action="backspace">⌫</button>
+        <button class="utility" type="button" data-value="%">%</button>
+        <button class="operator" type="button" data-value="/">÷</button>
+
+        <button type="button" data-value="7">7</button>
+        <button type="button" data-value="8">8</button>
+        <button type="button" data-value="9">9</button>
+        <button class="operator" type="button" data-value="*">×</button>
+
+        <button type="button" data-value="4">4</button>
+        <button type="button" data-value="5">5</button>
+        <button type="button" data-value="6">6</button>
+        <button class="operator" type="button" data-value="-">−</button>
+
+        <button type="button" data-value="1">1</button>
+        <button type="button" data-value="2">2</button>
+        <button type="button" data-value="3">3</button>
+        <button class="operator" type="button" data-value="+">+</button>
+
+        <button class="zero" type="button" data-value="0">0</button>
+        <button type="button" data-value=".">.</button>
+        <button class="equals" type="button" data-action="calculate">=</button>
+      </section>
+
+      <footer class="actions">
+        <button id="installButton" class="install" type="button" hidden>Download App</button>
+        <p id="installHelp" class="hint">Use keyboard keys or buttons. Install/download is available from your browser menu when supported.</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
